@@ -16,6 +16,8 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
         format_sql: false
+        connection:
+          pool_size: 100
     open-in-view: false
     hibernate:
       ddl-auto: update
